@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tvRNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_nome"
+        android:textSize="16dp"
+        android:padding="20dp"/>
+
+    <TextView
+        android:id="@+id/tvRSobreNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_sobreNome"
+        android:textSize="16dp"
+        android:padding="20dp"
+        />
+    <TextView
+        android:id="@+id/edtRIdade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_idade"
+        android:textSize="16dp"
+        android:padding="20dp"
+        />
+    <TextView
+        android:id="@+id/edtRPeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_peso"
+        android:textSize="16dp"
+        android:padding="20dp"
+        />
+    <TextView
+        android:id="@+id/edtRSobreNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_altura"
+        android:textSize="16dp"
+        android:padding="20dp"
+        />
+
+
+</LinearLayout>

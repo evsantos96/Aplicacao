@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Dados Pessoais</string>
+    <string name="tv_titulo">Dados Pessoais</string>
+    <string name="tv_nome">Nome:</string>
+    <string name="tv_sobreNome">SobreNome:</string>
+    <string name="tv_idade">Idade:</string>
+    <string name="tv_peso">Peso:</string>
+    <string name="tv_altura">Altura:</string>
+    <string name="btn_enviar">Enviar</string>
+    <string name="btn_limpar">Limpar</string>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textAlignment="center"
+        android:text="@string/tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:text="@string/tv_nome"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtNome"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:text="@string/tv_sobreNome"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtSobreNome"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:text="@string/tv_idade"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtIdade"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:text="@string/tv_peso"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtPeso"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:text="@string/tv_altura"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtAltura"
+        />
+    <Button
+        android:id="@+id/tbnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_enviar"
+        />
+
+    <Button
+        android:id="@+id/tbnLimpar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_limpar" />
+</LinearLayout>
+
+<!--<LinearLayout >-->
+<!--&lt;!&ndash;<Button&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/tbnEnviar"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:text="@string/btn_enviar"&ndash;&gt;-->
+    <!--&lt;!&ndash;/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;<Button&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/tbnLimpar"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:text="@string/btn_limpar" />&ndash;&gt;-->
+<!--</LinearLayout>-->
+
